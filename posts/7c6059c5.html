@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="hexo,git," />
+  <meta name="keywords" content="github," />
 
 
 
@@ -79,18 +79,17 @@
 
 
 
-<meta name="description" content="安装和配置环境本教程系统平台为win10 64位家庭中文版。 安装Git从Git官网地址：https:&#x2F;&#x2F;www.git-scm.com&#x2F;download&#x2F; 下载Git软件，按默认选项安装即可。 安装Node.js从node.js官网：https:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F; 下载Node.js软件，推荐下载稳定版本，然后按默认选项安装即可。安装完成后，打开cmd.exe，输入node -v，">
+<meta name="description" content="进入git bash界面然后： 第一步1git config --global --list   验证邮箱与GitHub注册时输入的是否一致 第二步通过 123git config --global user.name &quot;winsight&quot;git config --global user.email &quot;wangss.ch@gmail.com&quot;#（这里得名字和">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo博客部署到Gitlab pages">
-<meta property="og:url" content="http://winsight.github.io/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/index.html">
+<meta property="og:title" content="Github连接问题及相关解决方案">
+<meta property="og:url" content="http://winsight.github.io/next/posts/7c6059c5.html">
 <meta property="og:site_name" content="WINSIGHT">
-<meta property="og:description" content="安装和配置环境本教程系统平台为win10 64位家庭中文版。 安装Git从Git官网地址：https:&#x2F;&#x2F;www.git-scm.com&#x2F;download&#x2F; 下载Git软件，按默认选项安装即可。 安装Node.js从node.js官网：https:&#x2F;&#x2F;nodejs.org&#x2F;en&#x2F; 下载Node.js软件，推荐下载稳定版本，然后按默认选项安装即可。安装完成后，打开cmd.exe，输入node -v，">
+<meta property="og:description" content="进入git bash界面然后： 第一步1git config --global --list   验证邮箱与GitHub注册时输入的是否一致 第二步通过 123git config --global user.name &quot;winsight&quot;git config --global user.email &quot;wangss.ch@gmail.com&quot;#（这里得名字和">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-05-18T10:56:22.461Z">
-<meta property="article:modified_time" content="2021-05-18T07:21:14.679Z">
+<meta property="article:published_time" content="2021-05-18T10:56:22.451Z">
+<meta property="article:modified_time" content="2021-05-18T04:48:14.952Z">
 <meta property="article:author" content="Winsight">
-<meta property="article:tag" content="hexo">
-<meta property="article:tag" content="git">
+<meta property="article:tag" content="github">
 <meta name="twitter:card" content="summary">
 
 
@@ -121,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://winsight.github.io/next/2021/05/18/hexo博客部署到Gitlab-pages/"/>
+  <link rel="canonical" href="http://winsight.github.io/next/posts/7c6059c5.html"/>
 
 
 
 
 
-  <title>hexo博客部署到Gitlab pages | WINSIGHT</title>
+  <title>Github连接问题及相关解决方案 | WINSIGHT</title>
   
 
 
@@ -278,7 +277,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://winsight.github.io/next/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/">
+    <link itemprop="mainEntityOfPage" href="http://winsight.github.io/next/next/posts/7c6059c5.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="">
@@ -295,7 +294,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">hexo博客部署到Gitlab pages</h1>
+          <h1 class="post-title" itemprop="name headline">Github连接问题及相关解决方案</h1>
         
 
         <div class="post-meta">
@@ -330,8 +329,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/next/categories/HEXO/" itemprop="url" rel="index">
-                    <span itemprop="name">HEXO</span>
+                  <a href="/next/categories/Github/" itemprop="url" rel="index">
+                    <span itemprop="name">Github</span>
                   </a>
                 </span>
 
@@ -348,8 +347,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="http://winsight.github.io/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/" itemprop="commentCount">0</span> comments
+                <a href="/next/posts/7c6059c5.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count fb-comments-count" data-href="http://winsight.github.io/next/posts/7c6059c5.html" itemprop="commentCount">0</span> comments
                 </a>
               </span>
             
@@ -382,46 +381,25 @@
       
 
       
-        <h1 id="安装和配置环境"><a href="#安装和配置环境" class="headerlink" title="安装和配置环境"></a>安装和配置环境</h1><p>本教程系统平台为win10 64位家庭中文版。</p>
-<h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>从Git官网地址：<a target="_blank" rel="noopener" href="https://www.git-scm.com/download/">https://www.git-scm.com/download/</a> 下载Git软件，按默认选项安装即可。</p>
-<h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>从node.js官网：<a target="_blank" rel="noopener" href="https://nodejs.org/en/">https://nodejs.org/en/</a> 下载Node.js软件，推荐下载稳定版本，然后按默认选项安装即可。安装完成后，打开cmd.exe，输入node -v，若能正常显示版本号，则说明安装成功。</p>
-<h2 id="安装Hexo、预览本地hexo博客"><a href="#安装Hexo、预览本地hexo博客" class="headerlink" title="安装Hexo、预览本地hexo博客"></a>安装Hexo、预览本地hexo博客</h2><p>在本地新建一个目录如hexo_blog用来存储hexo博客源码，然后在该目录下打开cmd.exe或Git bash here，依次运行下列命令(一个指令运行完再运行下一个指令)：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g #安装hexo命令行工具</span><br><span class="line">hexo init #下载hexo博客初始源码</span><br><span class="line">npm install #安装npm</span><br><span class="line">hexo s 或 hexo server #启动本地服务器,可预览本地hexo博客</span><br></pre></td></tr></table></figure>
+        <p>进入git bash界面然后：</p>
+<h3 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> --<span class="keyword">list</span> </span><br></pre></td></tr></table></figure>
 
-<p>如果正常安装完成，在浏览器中访问：<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 就可以看到运行在本地服务器上的博客了。</p>
-<p><strong>注意：</strong></p>
-<p>如果你使用的是Microsoft Edge浏览器，访问<a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 时可能会失败，原因是这个浏览器经常偷偷地自动打开使用代理服务器127.0.0.1。关闭后即可正常访问。还有一种可能是你的4000端口被占用了。</p>
-<h1 id="将hexo博客部署到Gitlab-pages上"><a href="#将hexo博客部署到Gitlab-pages上" class="headerlink" title="将hexo博客部署到Gitlab pages上"></a>将hexo博客部署到Gitlab pages上</h1><h2 id="创建Gitlab-pages仓库"><a href="#创建Gitlab-pages仓库" class="headerlink" title="创建Gitlab pages仓库"></a>创建Gitlab pages仓库</h2><p>首先在Gitlab上注册一个账号，或者直接用Github账号登录也可以。</p>
-<p>Gitlab支持project page和user page两种page，只需要创建对应的仓库即可。如果你要创建一个project page，假设project name为blog，那么你的project URL为：<a target="_blank" rel="noopener" href="https://gitlab.com/username/blog/">https://gitlab.com/username/blog/</a> 。一旦这个project启用了GitLab pages，并构建了站点，站点访问url为：<a target="_blank" rel="noopener" href="https://uesrname.gitlab.io/blog/">https://uesrname.gitlab.io/blog/</a> 。如果你要创建一个user page，假设此时project <a target="_blank" rel="noopener" href="http://name为john.gitlab.io/">name为john.gitlab.io</a>(john为你的Gitlab账号名)，则你的project URL为：<a target="_blank" rel="noopener" href="https://gitlab.com/john/john.gitlab.io">https://gitlab.com/john/john.gitlab.io</a> 。一旦这个project启用了GitLab pages，并构建了站点，站点访问url为：<a target="_blank" rel="noopener" href="https://john.gitlab.io/">https://john.gitlab.io</a> 。</p>
-<p>这里我们新建一个名为username.gitlab.io的仓库，username就是你的Gitlab账户名。</p>
-<h2 id="Gitlab账号添加SSH-key"><a href="#Gitlab账号添加SSH-key" class="headerlink" title="Gitlab账号添加SSH-key"></a>Gitlab账号添加SSH-key</h2><p>点击你的Gitlab账号右上角头像，选择settings，然后在左侧菜单选择SSH keys。然后检查一下你的本地SSH key的情况，在hexo博客源码目录下点击Git bash here，依次输入以下命令：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.ssh</span><br><span class="line">ls #此时会显示一些文件</span><br><span class="line">mkdir key_backup</span><br><span class="line">cp id_rsa* key_backup</span><br><span class="line">rm id_rsa*</span><br><span class="line">#以上三步为备份和移除原来的SSH key设置</span><br></pre></td></tr></table></figure>
+<p>验证邮箱与GitHub注册时输入的是否一致</p>
+<h3 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h3><p>通过</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name <span class="string">&quot;winsight&quot;</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email <span class="string">&quot;wangss.ch@gmail.com&quot;</span></span><br><span class="line"><span class="comment">#（这里得名字和邮箱都是注册github时用的）</span></span><br></pre></td></tr></table></figure>
 
-<p>如果第一步cs ~/.ssh出现cd: /c/Users/1234/.ssh: No such file or directory，或者第二步ls后没有文件，则说明你的本地目前没有ssh key(或在windows下查看[c盘-&gt;用户-&gt;自己的用户名-&gt;.ssh]下是否有id_rsa、id_rsa.pub文件)，那么使用命令：</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;winsight1&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;wangss.ch@gmail.com&quot;</span></span><br><span class="line"># --global参数表示你这台机器上所有的Git仓库都会使用这个用户名和邮箱地址的配置来提交，当然也可以对某个仓库指定不同的用户名和Email地址</span><br><span class="line"># 用户名和邮箱地址是本地git客户端的一个变量,每次commit都会用用户名和邮箱纪录,github的contributions统计就是按邮箱来统计的。</span><br><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;wangss.ch@gmail.com&quot;</span> #生成新的key文件,邮箱地址填你的Github地址</span><br></pre></td></tr></table></figure>
+<p>设置全局用户名和邮箱。</p>
+<h3 id="第三步"><a href="#第三步" class="headerlink" title="第三步"></a>第三步</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C “这里换上你的邮箱”</span><br></pre></td></tr></table></figure>
 
-<p>然后按三次enter生成一个新的SSH key。打开id_rsa.pub文件，将里面的所有内容添加到上面Gitlab账号settings中的SSH key中。</p>
-<h2 id="hexo博客源码目录下添加-gitlab-ci-yml文件"><a href="#hexo博客源码目录下添加-gitlab-ci-yml文件" class="headerlink" title="hexo博客源码目录下添加.gitlab-ci.yml文件"></a>hexo博客源码目录下添加.gitlab-ci.yml文件</h2><p>使用Gitlab pages部署hexo博客和Github pages不同。在Github pages上部署博客，需要先在本地生成各种静态网页和文件，然后再推送到Github pages仓库上就可以直接访问了。使用Gitlab需要在服务器端完成生成和部署两个阶段，需要在本地的hexo博客源码目录下添加一个.gitlab-ci.yml文件用来指导服务器如何处理你提交的源文件。</p>
-<p>最新的.gitlab-ci.yml文件官方版本可以从这个仓库中获取：<a target="_blank" rel="noopener" href="https://gitlab.com/pages/hexo/blob/master/.gitlab-ci.yml">https://gitlab.com/pages/hexo/blob/master/.gitlab-ci.yml</a> 。</p>
-<p>.gitlab-ci.yml内容如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">image: node:8.11.2</span><br><span class="line"></span><br><span class="line">pages:</span><br><span class="line">  cache:</span><br><span class="line">    paths:</span><br><span class="line">    - node_modules/</span><br><span class="line"></span><br><span class="line">  script:</span><br><span class="line">  - npm install hexo-cli -g</span><br><span class="line">  - npm install</span><br><span class="line">  - hexo clean</span><br><span class="line">  - hexo generate</span><br><span class="line">  - hexo deploy</span><br><span class="line">  artifacts:</span><br><span class="line">    paths:</span><br><span class="line">    - public</span><br><span class="line">  only:</span><br><span class="line">  - master</span><br></pre></td></tr></table></figure>
+<p>一路回车，在出现选择时输入Y，再一路回车直到生成密钥。会在/Users/***/路径下生成一个.ssh文件夹，密钥就存储在其中。</p>
+<h3 id="第四步"><a href="#第四步" class="headerlink" title="第四步"></a>第四步</h3><p>到git仓库，添加秘钥</p>
+<h3 id="第五步"><a href="#第五步" class="headerlink" title="第五步"></a>第五步</h3><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
 
-<h2 id="hexo博客本地源码推送到Gitlab-pages仓库"><a href="#hexo博客本地源码推送到Gitlab-pages仓库" class="headerlink" title="hexo博客本地源码推送到Gitlab pages仓库"></a>hexo博客本地源码推送到Gitlab pages仓库</h2><p>在hexo博客源码目录点击鼠标右键Git bash here，依次运行下列命令：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br><span class="line">git add -A</span><br><span class="line">git commit -m <span class="string">&quot;init blog&quot;</span></span><br><span class="line">git remote add origin git@gitlab.com:winsight1/winsight.gitlab.io.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<p>测试一下通不通，通了显示如下</p>
+<p>即可正常使用。<br>不通就是</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh-agent -s</span><br><span class="line">ssh-add ~/.ssh/id_rsa </span><br></pre></td></tr></table></figure>
 
-<p>这样我们就将hexo博客本地源码推送到Gitlab pages仓库上了。</p>
-<h3 id="可能存在的问题"><a href="#可能存在的问题" class="headerlink" title="可能存在的问题"></a>可能存在的问题</h3><p>Git 提示fatal: remote origin already exists 错误</p>
-<p>最后找到解决办法如下：</p>
-<p>1、先删除远程 Git 仓库</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote rm origin</span><br></pre></td></tr></table></figure>
-
-<p>2、再添加远程 Git 仓库</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git@gitlab.com:username/username.gitlab.io.git</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
-
-<h2 id="开启Gitlab-pages-CI-CD生成Gitlab-pages页面"><a href="#开启Gitlab-pages-CI-CD生成Gitlab-pages页面" class="headerlink" title="开启Gitlab pages CI/CD生成Gitlab pages页面"></a>开启Gitlab pages CI/CD生成Gitlab pages页面</h2><p>上传后，然后Gitlab服务器会自动检查.gitlab-ci.yml脚本是否有效，校验通过后，会自动开始执行脚本。</p>
-<p>点击左侧菜单中的CI/CD-&gt;pipeline可以查看脚本的执行情况，当脚本的Stages状态变为<code>test:passed &amp;&amp; deploy: passed</code>时，说明构建完成。此时已可以访问我们的个人博客站点：<a target="_blank" rel="noopener" href="https://username.gitlab.io/">https://username.gitlab.io</a> 。有时构建完成时马上访问可能会出现404页面，这种情况很多人遇到过，这里是该问题的讨论：<a target="_blank" rel="noopener" href="https://forum.gitlab.com/t/gitlab-pages-404-for-even-the-simplest-setup/5870">https://forum.gitlab.com/t/gitlab-pages-404-for-even-the-simplest-setup/5870</a> 。其实这是因为Gitlab的服务器构建速度比较慢，等5-10分钟再重新访问页面就正常了。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>使用Gitlab pages部署hexo博客时，我们不需要在本地使用hexo generate命令生成博客静态网页，再push到Gitlab pages仓库，而是直接push了hexo博客的源码到Gitlab pages仓库，同时增加一个.gitlab-ci.yml文件作为CI/CD脚本，通过该文件在Gitlab服务器生成博客的静态网页，然后自动发布到Gitlab pages博客站点上。</p>
-<p>当我们要在博客上写新文章时，只需把Gitlab pages仓库中的源码pull下来，然后使用hexo新建文章，使用markdown编辑器(如typora)编辑文章，完成后将源码再push到Gitlab pages仓库中即可，Gitlab服务器会根据.gitlab-ci.yml文件重新生成博客的静态网页，然后自动发布到Gitlab pages博客站点上。我们可以点击CD/CI configuration让Gitlab服务器自动检测.gitlab-ci.yml文件，若文件正确则自动运行和发布；也可以在Gitlab左侧菜单CI/CD-&gt;Schedules中添加new schedule，这样Gitlab服务器会定时重新运行.gitlab-ci.yml文件来重新发布博客。</p>
+<p>操作这两步</p>
 
       
     </div>
@@ -442,7 +420,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="http://winsight.github.io/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/" title="hexo博客部署到Gitlab pages">http://winsight.github.io/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/</a>
+    <a href="http://winsight.github.io/next/posts/7c6059c5.html" title="Github连接问题及相关解决方案">http://winsight.github.io/next/posts/7c6059c5.html</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -457,9 +435,7 @@
       
         <div class="post-tags">
           
-            <a href="/next/tags/hexo/" rel="tag"># hexo</a>
-          
-            <a href="/next/tags/git/" rel="tag"># git</a>
+            <a href="/next/tags/github/" rel="tag"># github</a>
           
         </div>
       
@@ -472,8 +448,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Github-pages/" rel="next" title="hexo博客部署到Github pages">
-                <i class="fa fa-chevron-left"></i> hexo博客部署到Github pages
+              <a href="/next/posts/a407e9d6.html" rel="next" title="为什么两个矩阵乘积的行列式的值等于矩阵行列式的乘积？">
+                <i class="fa fa-chevron-left"></i> 为什么两个矩阵乘积的行列式的值等于矩阵行列式的乘积？
               </a>
             
           </div>
@@ -482,8 +458,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/next/2021/05/18/Hexo%E8%AE%BE%E7%BD%AE%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5(%E7%9F%AD%E9%93%BE)/" rel="prev" title="Hexo设置永久链接(短链)">
-                Hexo设置永久链接(短链) <i class="fa fa-chevron-right"></i>
+              <a href="/next/posts/4b85b242.html" rel="prev" title="hexo博客部署到Github pages">
+                hexo博客部署到Github pages <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -561,7 +537,7 @@
               
                 <a href="/next/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-count">13</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -638,7 +614,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83"><span class="nav-number">1.</span> <span class="nav-text">安装和配置环境</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Git"><span class="nav-number">1.1.</span> <span class="nav-text">安装Git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Node-js"><span class="nav-number">1.2.</span> <span class="nav-text">安装Node.js</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%89%E8%A3%85Hexo%E3%80%81%E9%A2%84%E8%A7%88%E6%9C%AC%E5%9C%B0hexo%E5%8D%9A%E5%AE%A2"><span class="nav-number">1.3.</span> <span class="nav-text">安装Hexo、预览本地hexo博客</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%B0%86hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages%E4%B8%8A"><span class="nav-number">2.</span> <span class="nav-text">将hexo博客部署到Gitlab pages上</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%9B%E5%BB%BAGitlab-pages%E4%BB%93%E5%BA%93"><span class="nav-number">2.1.</span> <span class="nav-text">创建Gitlab pages仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Gitlab%E8%B4%A6%E5%8F%B7%E6%B7%BB%E5%8A%A0SSH-key"><span class="nav-number">2.2.</span> <span class="nav-text">Gitlab账号添加SSH-key</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E5%8D%9A%E5%AE%A2%E6%BA%90%E7%A0%81%E7%9B%AE%E5%BD%95%E4%B8%8B%E6%B7%BB%E5%8A%A0-gitlab-ci-yml%E6%96%87%E4%BB%B6"><span class="nav-number">2.3.</span> <span class="nav-text">hexo博客源码目录下添加.gitlab-ci.yml文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hexo%E5%8D%9A%E5%AE%A2%E6%9C%AC%E5%9C%B0%E6%BA%90%E7%A0%81%E6%8E%A8%E9%80%81%E5%88%B0Gitlab-pages%E4%BB%93%E5%BA%93"><span class="nav-number">2.4.</span> <span class="nav-text">hexo博客本地源码推送到Gitlab pages仓库</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%AF%E8%83%BD%E5%AD%98%E5%9C%A8%E7%9A%84%E9%97%AE%E9%A2%98"><span class="nav-number">2.4.1.</span> <span class="nav-text">可能存在的问题</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%90%AFGitlab-pages-CI-CD%E7%94%9F%E6%88%90Gitlab-pages%E9%A1%B5%E9%9D%A2"><span class="nav-number">2.5.</span> <span class="nav-text">开启Gitlab pages CI&#x2F;CD生成Gitlab pages页面</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5"><span class="nav-number">1.</span> <span class="nav-text">第一步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5"><span class="nav-number">2.</span> <span class="nav-text">第二步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5"><span class="nav-number">3.</span> <span class="nav-text">第三步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5"><span class="nav-number">4.</span> <span class="nav-text">第四步</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%AC%AC%E4%BA%94%E6%AD%A5"><span class="nav-number">5.</span> <span class="nav-text">第五步</span></a></li></ol></div>
             
 
           </div>
