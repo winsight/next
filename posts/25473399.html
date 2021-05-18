@@ -79,15 +79,15 @@
 
 
 
-<meta name="description" content="使用安装插件1npm install hexo-abbrlink --save  执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…使用npm命令安装即可，比如npm install &amp;#x65;&amp;#115;&amp;#x6c;&amp;#x69;&amp;#110;&amp;#116;&amp;#x40;&amp;#x34;&amp;#46;&amp;#x78;">
+<meta name="description" content="使用安装插件1npm install hexo-abbrlink --save  执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…使用npm命令安装即可，比如npm install &amp;#101;&amp;#115;&amp;#x6c;&amp;#x69;&amp;#110;&amp;#x74;&amp;#64;&amp;#52;&amp;#x2e;&amp;#x78; b">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo设置永久链接(短链)">
 <meta property="og:url" content="http://winsight.github.io/next/posts/25473399.html">
 <meta property="og:site_name" content="WINSIGHT">
-<meta property="og:description" content="使用安装插件1npm install hexo-abbrlink --save  执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…使用npm命令安装即可，比如npm install &amp;#x65;&amp;#115;&amp;#x6c;&amp;#x69;&amp;#110;&amp;#116;&amp;#x40;&amp;#x34;&amp;#46;&amp;#x78;">
+<meta property="og:description" content="使用安装插件1npm install hexo-abbrlink --save  执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…使用npm命令安装即可，比如npm install &amp;#101;&amp;#115;&amp;#x6c;&amp;#x69;&amp;#110;&amp;#x74;&amp;#64;&amp;#52;&amp;#x2e;&amp;#x78; b">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-05-18T10:56:22.467Z">
-<meta property="article:modified_time" content="2021-05-18T07:51:24.231Z">
+<meta property="article:modified_time" content="2021-05-18T14:56:53.683Z">
 <meta property="article:author" content="Winsight">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -197,6 +197,16 @@
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/next/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
           </a>
         </li>
       
@@ -383,7 +393,7 @@
       
         <h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure>
 
-<p>执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…<br>使用npm命令安装即可，比如npm install <a href="mailto:&#x65;&#115;&#x6c;&#x69;&#110;&#116;&#x40;&#x34;&#46;&#x78;">&#x65;&#115;&#x6c;&#x69;&#110;&#116;&#x40;&#x34;&#46;&#x78;</a> babel-eslint@8 –save-dev</p>
+<p>执行此命令可能会不成功，提示你缺少相应的依赖比如babel-eslint、mini-css-extract-plugin、webpack-cli…<br>使用npm命令安装即可，比如npm install <a href="mailto:&#101;&#115;&#x6c;&#x69;&#110;&#x74;&#64;&#52;&#x2e;&#x78;">&#101;&#115;&#x6c;&#x69;&#110;&#x74;&#64;&#52;&#x2e;&#x78;</a> babel-eslint@8 –save-dev</p>
 <h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><p>修改根目录站点配置文件_config.yml，改为：</p>
 <figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">permalink:</span> posts/<span class="symbol">:abbrlink</span>.html  </span><br><span class="line"><span class="comment"># 此处可以自己设置，也可以直接使用 /:abbrlink  posts也可改也可以去掉</span></span><br><span class="line"><span class="symbol">abbrlink:</span></span><br><span class="line">    <span class="symbol">alg:</span> crc32   <span class="comment">#算法： crc16(default) and crc32</span></span><br><span class="line">    <span class="symbol">rep:</span> hex     <span class="comment">#进制： dec(default) and hex</span></span><br></pre></td></tr></table></figure>
 
