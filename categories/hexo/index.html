@@ -81,7 +81,7 @@
 
 <meta property="og:type" content="website">
 <meta property="og:title" content="WINSIGHT">
-<meta property="og:url" content="http://winsight.github.io/next/categories/HEXO/index.html">
+<meta property="og:url" content="http://winsight.github.io/next/categories/hexo/index.html">
 <meta property="og:site_name" content="WINSIGHT">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="Winsight">
@@ -115,13 +115,13 @@
 
 
 
-  <link rel="canonical" href="http://winsight.github.io/next/categories/HEXO/"/>
+  <link rel="canonical" href="http://winsight.github.io/next/categories/hexo/"/>
 
 
 
 
 
-  <title>Category: HEXO | WINSIGHT</title>
+  <title>Category: hexo | WINSIGHT</title>
   
 
 
@@ -265,7 +265,7 @@
 
     <div id="posts" class="posts-collapse">
       <div class="collection-title">
-        <h1>HEXO<small>Category</small>
+        <h1>hexo<small>Category</small>
         </h1>
       </div>
 
@@ -277,37 +277,9 @@
 
       <h2 class="post-title">
         
-            <a class="post-title-link" href="/next/2021/05/18/Hexo%E8%AE%BE%E7%BD%AE%E6%B0%B8%E4%B9%85%E9%93%BE%E6%8E%A5(%E7%9F%AD%E9%93%BE)/" itemprop="url">
+            <a class="post-title-link" href="/next/2021/05/18/NEXT%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85/" itemprop="url">
               
-                <span itemprop="name">Hexo设置永久链接(短链)</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2021-05-18T18:56:22+08:00"
-              content="2021-05-18" >
-          05-18
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Gitlab-pages/" itemprop="url">
-              
-                <span itemprop="name">hexo博客部署到Gitlab pages</span>
+                <span itemprop="name">NEXT主题安装</span>
               
             </a>
         
@@ -315,35 +287,7 @@
 
       <div class="post-meta">
         <time class="post-time" itemprop="dateCreated"
-              datetime="2021-05-18T18:56:22+08:00"
-              content="2021-05-18" >
-          05-18
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-      
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/next/2021/05/18/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2%E5%88%B0Github-pages/" itemprop="url">
-              
-                <span itemprop="name">hexo博客部署到Github pages</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2021-05-18T18:56:22+08:00"
+              datetime="2021-05-18T13:05:55+08:00"
               content="2021-05-18" >
           05-18
         </time>
@@ -962,6 +906,87 @@
           }
 
           // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+  
+  <link rel="stylesheet" href="/next/lib/needsharebutton/needsharebutton.css">
+
+  
+  
+  <script src="/next/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+    
+  </script>
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+remove loading animation
           $(".local-search-pop-overlay").remove();
           $('body').css('overflow', '');
 
