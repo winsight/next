@@ -6,7 +6,7 @@
   <link href="http://winsight.github.io/next/atom.xml" rel="self"/>
   
   <link href="http://winsight.github.io/next/"/>
-  <updated>2021-05-18T16:19:12.637Z</updated>
+  <updated>2021-05-19T10:31:43.688Z</updated>
   <id>http://winsight.github.io/next/</id>
   
   <author>
@@ -17,33 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>111</title>
-    <link href="http://winsight.github.io/next/posts/4d6b513d.html"/>
-    <id>http://winsight.github.io/next/posts/4d6b513d.html</id>
-    <published>2021-05-18T14:49:14.000Z</published>
-    <updated>2021-05-18T16:19:12.637Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot;&gt;&lt;/p&gt;
-&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot; class</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>一些插件的详细用法</title>
+    <title>一些插件的用法示例</title>
     <link href="http://winsight.github.io/next/posts/ff28ec76.html"/>
     <id>http://winsight.github.io/next/posts/ff28ec76.html</id>
-    <published>2021-05-18T10:56:22.484Z</published>
-    <updated>2021-05-17T16:29:02.406Z</updated>
+    <published>2021-05-19T10:32:46.378Z</published>
+    <updated>2021-05-19T10:31:43.688Z</updated>
     
     
       
@@ -64,18 +42,18 @@
   </entry>
   
   <entry>
-    <title>Hexo设置永久链接(短链)</title>
-    <link href="http://winsight.github.io/next/posts/25473399.html"/>
-    <id>http://winsight.github.io/next/posts/25473399.html</id>
-    <published>2021-05-18T10:56:22.467Z</published>
-    <updated>2021-05-18T14:56:53.683Z</updated>
+    <title>NEXT主题安装</title>
+    <link href="http://winsight.github.io/next/posts/1a8b75d1.html"/>
+    <id>http://winsight.github.io/next/posts/1a8b75d1.html</id>
+    <published>2021-05-19T10:32:46.370Z</published>
+    <updated>2021-05-19T10:29:53.906Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;h3 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo&lt;/a&gt; 是高效的静态站点生成框架，她基于 &lt;a href=&quot;https://nodejs.org/&quot;&gt;Node.js&lt;/a&gt;。 通过 Hexo 你可以轻松地使用 Markdown 编写文章，除了</summary>
         
       
     
@@ -85,6 +63,75 @@
     
     
     <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+    <category term="next" scheme="http://winsight.github.io/next/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO的一些使用提醒</title>
+    <link href="http://winsight.github.io/next/posts/d77e65f8.html"/>
+    <id>http://winsight.github.io/next/posts/d77e65f8.html</id>
+    <published>2021-05-19T10:32:46.362Z</published>
+    <updated>2021-05-19T10:29:58.834Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;比较混乱，用来提示自己的&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87&quot;&gt;主题配置 | Hexo-Theme-Yun</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="http://winsight.github.io/next/categories/HEXO/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《一生所爱》最经典版本，二胡声起时，音符穿魂而过</title>
+    <link href="http://winsight.github.io/next/posts/3d4657b1.html"/>
+    <id>http://winsight.github.io/next/posts/3d4657b1.html</id>
+    <published>2021-05-19T10:32:46.332Z</published>
+    <updated>2021-05-15T12:51:34.694Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;卢冠廷音乐作品品鉴会，经典再现大话西游《一生所爱》，二胡声起时，音符穿魂而过。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="视频" scheme="http://winsight.github.io/next/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="bilibili" scheme="http://winsight.github.io/next/tags/bilibili/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>111</title>
+    <link href="http://winsight.github.io/next/posts/4d6b513d.html"/>
+    <id>http://winsight.github.io/next/posts/4d6b513d.html</id>
+    <published>2021-05-18T14:49:14.000Z</published>
+    <updated>2021-05-18T16:19:12.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot; class</summary>
+        
+      
+    
+    
+    
     
   </entry>
   
@@ -200,27 +247,6 @@
   </entry>
   
   <entry>
-    <title>NEXT主题安装</title>
-    <link href="http://winsight.github.io/next/posts/1a8b75d1.html"/>
-    <id>http://winsight.github.io/next/posts/1a8b75d1.html</id>
-    <published>2021-05-18T05:05:55.962Z</published>
-    <updated>2021-05-18T10:40:55.713Z</updated>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo&lt;/a&gt; 是高效的静态站点生成框架。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="hexo" scheme="http://winsight.github.io/next/categories/hexo/"/>
-    
-    
-    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
-    
-    <category term="next" scheme="http://winsight.github.io/next/tags/next/"/>
-    
-  </entry>
-  
-  <entry>
     <title>SMT用焊料、助焊剂、焊锡膏、胶粘剂</title>
     <link href="http://winsight.github.io/next/posts/f4a065c.html"/>
     <id>http://winsight.github.io/next/posts/f4a065c.html</id>
@@ -247,6 +273,32 @@
   </entry>
   
   <entry>
+    <title>【郎朗】海 上 东 北 钢 琴 师</title>
+    <link href="http://winsight.github.io/next/posts/d3a70d26.html"/>
+    <id>http://winsight.github.io/next/posts/d3a70d26.html</id>
+    <published>2021-05-17T16:44:40.000Z</published>
+    <updated>2021-05-17T16:46:55.808Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;这鬼畜质量至少倒退了五年！！！&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    
+    <category term="视频" scheme="http://winsight.github.io/next/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="bilibili" scheme="http://winsight.github.io/next/tags/bilibili/"/>
+    
+  </entry>
+  
+  <entry>
     <title>发展党员工作手册</title>
     <link href="http://winsight.github.io/next/posts/e24f9ab0.html"/>
     <id>http://winsight.github.io/next/posts/e24f9ab0.html</id>
@@ -254,16 +306,7 @@
     <updated>2021-05-17T13:57:51.741Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">
-
-	&lt;div class=&quot;row&quot;&gt;
-    &lt;embed src=&quot;北京理工大学发展党员工作手册2018年11月.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;</summary>
-        
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
@@ -280,13 +323,7 @@
     <updated>2021-05-15T13:01:07.137Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;💡或许PC端体验更好（手机端可能只会显示第一页）&quot;&gt;&lt;a href=&quot;#💡或许PC端体验更好（手机端可能只会显示第一页）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
@@ -302,15 +339,17 @@
     <link href="http://winsight.github.io/next/posts/a06812ca.html"/>
     <id>http://winsight.github.io/next/posts/a06812ca.html</id>
     <published>2021-05-14T04:59:45.000Z</published>
-    <updated>2021-05-18T07:51:14.723Z</updated>
+    <updated>2021-05-17T16:43:55.106Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilibili&quot;&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=758078638&amp;bvid=BV1o64y1277T&amp;cid=336354649&amp;page=1&quot; scrolling=&quot;no&quot;</summary>
+    <summary type="html">
+        &lt;style&gt;.bbplayer{width: 100%; max-width: 850px; margin: auto}&lt;/style&gt;
+        &lt;div class=&quot;bbplayer&quot;&gt;
+        &lt;iframe</summary>
         
       
     
@@ -318,6 +357,8 @@
     
     
     <category term="视频" scheme="http://winsight.github.io/next/tags/%E8%A7%86%E9%A2%91/"/>
+    
+    <category term="bilibili" scheme="http://winsight.github.io/next/tags/bilibili/"/>
     
   </entry>
   
@@ -326,15 +367,17 @@
     <link href="http://winsight.github.io/next/posts/53068437.html"/>
     <id>http://winsight.github.io/next/posts/53068437.html</id>
     <published>2021-05-14T04:57:04.000Z</published>
-    <updated>2021-05-18T08:12:01.305Z</updated>
+    <updated>2021-05-17T16:41:45.316Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilibili&quot;&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=333064283&amp;bvid=BV1hA411G7FZ&amp;cid=337899495&amp;page=1&quot; scrolling=&quot;no&quot;</summary>
+    <summary type="html">
+        &lt;style&gt;.bbplayer{width: 100%; max-width: 850px; margin: auto}&lt;/style&gt;
+        &lt;div class=&quot;bbplayer&quot;&gt;
+        &lt;iframe</summary>
         
       
     
@@ -343,6 +386,8 @@
     
     <category term="视频" scheme="http://winsight.github.io/next/tags/%E8%A7%86%E9%A2%91/"/>
     
+    <category term="bilibili" scheme="http://winsight.github.io/next/tags/bilibili/"/>
+    
   </entry>
   
   <entry>
@@ -350,7 +395,7 @@
     <link href="http://winsight.github.io/next/posts/f995d284.html"/>
     <id>http://winsight.github.io/next/posts/f995d284.html</id>
     <published>2021-05-08T12:16:10.000Z</published>
-    <updated>2021-05-18T07:51:14.723Z</updated>
+    <updated>2021-05-15T12:51:45.316Z</updated>
     
     
       
@@ -366,7 +411,7 @@
     
     <category term="豆瓣" scheme="http://winsight.github.io/next/tags/%E8%B1%86%E7%93%A3/"/>
     
-    <category term="转载" scheme="http://winsight.github.io/next/tags/%E8%BD%AC%E8%BD%BD/"/>
+    <category term="图片" scheme="http://winsight.github.io/next/tags/%E5%9B%BE%E7%89%87/"/>
     
   </entry>
   
@@ -375,15 +420,17 @@
     <link href="http://winsight.github.io/next/posts/2fff1021.html"/>
     <id>http://winsight.github.io/next/posts/2fff1021.html</id>
     <published>2021-05-08T12:08:35.000Z</published>
-    <updated>2021-05-18T07:51:14.708Z</updated>
+    <updated>2021-05-17T16:42:59.539Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;bilibili&quot;&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=887904817&amp;bvid=BV1CK4y1w76b&amp;cid=333321889&amp;page=1&quot; scrolling=&quot;no&quot;</summary>
+    <summary type="html">
+        &lt;style&gt;.bbplayer{width: 100%; max-width: 850px; margin: auto}&lt;/style&gt;
+        &lt;div class=&quot;bbplayer&quot;&gt;
+        &lt;iframe</summary>
         
       
     
@@ -392,114 +439,24 @@
     
     <category term="视频" scheme="http://winsight.github.io/next/tags/%E8%A7%86%E9%A2%91/"/>
     
+    <category term="bilibili" scheme="http://winsight.github.io/next/tags/bilibili/"/>
+    
   </entry>
   
   <entry>
-    <title>IYPT-2021</title>
+    <title>IYPT-2021 同步蜡烛</title>
     <link href="http://winsight.github.io/next/posts/912d800d.html"/>
     <id>http://winsight.github.io/next/posts/912d800d.html</id>
     <published>2021-05-03T05:16:40.000Z</published>
-    <updated>2021-05-18T08:11:40.652Z</updated>
+    <updated>2021-05-15T12:50:31.536Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;💡或许PC端体验更好（手机端可能只会显示第一页）&quot;&gt;&lt;a href=&quot;#💡或许PC端体验更好（手机端可能只会显示第一页）&quot; class=&quot;headerlink&quot;</summary>
-        
-      
+    <summary type="html">Here&#39;s something encrypted, password is required to continue reading.</summary>
     
     
     
     
     <category term="pdf" scheme="http://winsight.github.io/next/tags/pdf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微电子制造基础复习</title>
-    <link href="http://winsight.github.io/next/posts/c935779.html"/>
-    <id>http://winsight.github.io/next/posts/c935779.html</id>
-    <published>2021-05-02T10:15:28.000Z</published>
-    <updated>2021-05-18T07:51:14.723Z</updated>
-    
-    
-    <summary type="html">简单的知识梳理与搬运</summary>
-    
-    
-    
-    <category term="复习" scheme="http://winsight.github.io/next/categories/%E5%A4%8D%E4%B9%A0/"/>
-    
-    
-    <category term="微电子制造" scheme="http://winsight.github.io/next/tags/%E5%BE%AE%E7%94%B5%E5%AD%90%E5%88%B6%E9%80%A0/"/>
-    
-    <category term="考试" scheme="http://winsight.github.io/next/tags/%E8%80%83%E8%AF%95/"/>
-    
-    <category term="复习笔记" scheme="http://winsight.github.io/next/tags/%E5%A4%8D%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文章标头写法</title>
-    <link href="http://winsight.github.io/next/posts/8cbccaa4.html"/>
-    <id>http://winsight.github.io/next/posts/8cbccaa4.html</id>
-    <published>2021-05-02T04:37:28.000Z</published>
-    <updated>2021-05-15T11:57:21.120Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;📖发布文章&quot;&gt;&lt;a href=&quot;#📖发布文章&quot; class=&quot;headerlink&quot; title=&quot;📖发布文章&quot;&gt;&lt;/a&gt;📖发布文章&lt;/h3&gt;&lt;p&gt;你需要在发布文章的时候写标头&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="项目案例" scheme="http://winsight.github.io/next/categories/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
-    
-    
-    <category term="Hexo" scheme="http://winsight.github.io/next/tags/Hexo/"/>
-    
-    <category term="blog" scheme="http://winsight.github.io/next/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文章标头写法</title>
-    <link href="http://winsight.github.io/next/posts/8cbccaa4.html"/>
-    <id>http://winsight.github.io/next/posts/8cbccaa4.html</id>
-    <published>2021-05-02T04:37:28.000Z</published>
-    <updated>2021-05-18T07:51:14.708Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;📖发布文章&quot;&gt;&lt;a href=&quot;#📖发布文章&quot; class=&quot;headerlink&quot; title=&quot;📖发布文章&quot;&gt;&lt;/a&gt;📖发布文章&lt;/h3&gt;&lt;p&gt;你需要在发布文章的时候写标头&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="项目案例" scheme="http://winsight.github.io/next/categories/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
-    
-    
-    <category term="Hexo" scheme="http://winsight.github.io/next/tags/Hexo/"/>
-    
-    <category term="blog" scheme="http://winsight.github.io/next/tags/blog/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://winsight.github.io/next/posts/4a17b156.html"/>
-    <id>http://winsight.github.io/next/posts/4a17b156.html</id>
-    <published>2021-04-28T04:26:39.789Z</published>
-    <updated>2021-05-18T07:51:14.723Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
     
   </entry>
   
