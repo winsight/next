@@ -6,7 +6,7 @@
   <link href="http://winsight.github.io/next/atom.xml" rel="self"/>
   
   <link href="http://winsight.github.io/next/"/>
-  <updated>2021-05-19T10:31:43.688Z</updated>
+  <updated>2021-05-19T10:29:58.834Z</updated>
   <id>http://winsight.github.io/next/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HEXO的一些使用提醒</title>
+    <link href="http://winsight.github.io/next/posts/d77e65f8.html"/>
+    <id>http://winsight.github.io/next/posts/d77e65f8.html</id>
+    <published>2021-05-19T10:49:39.316Z</published>
+    <updated>2021-05-19T10:29:58.834Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;比较混乱，用来提示自己的&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://yun.yunyoujun.cn/guide/config.html#%E5%86%85%E5%AE%B9%E5%8D%A1%E7%89%87&quot;&gt;主题配置 | Hexo-Theme-Yun</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="http://winsight.github.io/next/categories/HEXO/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>一些插件的用法示例</title>
