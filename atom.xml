@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WINSIGHT</title>
+  <icon>http://winsight.github.io/next/icon.png</icon>
+  
+  <link href="http://winsight.github.io/next/atom.xml" rel="self"/>
+  
+  <link href="http://winsight.github.io/next/"/>
+  <updated>2021-05-18T16:19:12.637Z</updated>
+  <id>http://winsight.github.io/next/</id>
+  
+  <author>
+    <name>Winsight</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>111</title>
+    <link href="http://winsight.github.io/next/posts/4d6b513d.html"/>
+    <id>http://winsight.github.io/next/posts/4d6b513d.html</id>
+    <published>2021-05-18T14:49:14.000Z</published>
+    <updated>2021-05-18T16:19:12.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot;&gt;&lt;/p&gt;
+&lt;img src=&quot;/next/next/posts/4d6b513d/posts/4d6b513d/111.PNG&quot; class</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>一些插件的详细用法</title>
+    <link href="http://winsight.github.io/next/posts/ff28ec76.html"/>
+    <id>http://winsight.github.io/next/posts/ff28ec76.html</id>
+    <published>2021-05-18T10:56:22.484Z</published>
+    <updated>2021-05-17T16:29:02.406Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;音乐🎵&quot;&gt;&lt;a href=&quot;#音乐🎵&quot; class=&quot;headerlink&quot; title=&quot;音乐🎵&quot;&gt;&lt;/a&gt;音乐🎵&lt;/h1&gt;&lt;h2 id=&quot;示例一-MetingJS播放器&quot;&gt;&lt;a href=&quot;#示例一-MetingJS播放器&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+    <category term="插件" scheme="http://winsight.github.io/next/tags/%E6%8F%92%E4%BB%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo设置永久链接(短链)</title>
+    <link href="http://winsight.github.io/next/posts/25473399.html"/>
+    <id>http://winsight.github.io/next/posts/25473399.html</id>
+    <published>2021-05-18T10:56:22.467Z</published>
+    <updated>2021-05-18T14:56:53.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;使用&quot;&gt;&lt;a href=&quot;#使用&quot; class=&quot;headerlink&quot; title=&quot;使用&quot;&gt;&lt;/a&gt;使用&lt;/h2&gt;&lt;h3 id=&quot;安装插件&quot;&gt;&lt;a href=&quot;#安装插件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="http://winsight.github.io/next/categories/HEXO/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客部署到Gitlab pages</title>
+    <link href="http://winsight.github.io/next/posts/ee98dc9f.html"/>
+    <id>http://winsight.github.io/next/posts/ee98dc9f.html</id>
+    <published>2021-05-18T10:56:22.461Z</published>
+    <updated>2021-05-18T07:21:14.679Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安装和配置环境&quot;&gt;&lt;a href=&quot;#安装和配置环境&quot; class=&quot;headerlink&quot; title=&quot;安装和配置环境&quot;&gt;&lt;/a&gt;安装和配置环境&lt;/h1&gt;&lt;p&gt;本教程系统平台为win10 64位家庭中文版。&lt;/p&gt;
+&lt;h2 id=&quot;安装Git&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="http://winsight.github.io/next/categories/HEXO/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+    <category term="git" scheme="http://winsight.github.io/next/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客部署到Github pages</title>
+    <link href="http://winsight.github.io/next/posts/4b85b242.html"/>
+    <id>http://winsight.github.io/next/posts/4b85b242.html</id>
+    <published>2021-05-18T10:56:22.456Z</published>
+    <updated>2021-05-18T07:20:45.951Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;安装和配置环境&quot;&gt;&lt;a href=&quot;#安装和配置环境&quot; class=&quot;headerlink&quot; title=&quot;安装和配置环境&quot;&gt;&lt;/a&gt;安装和配置环境&lt;/h1&gt;&lt;p&gt;本教程系统平台为win10 64位家庭中文版。&lt;/p&gt;
+&lt;h2 id=&quot;安装Git&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="HEXO" scheme="http://winsight.github.io/next/categories/HEXO/"/>
+    
+    <category term="Github" scheme="http://winsight.github.io/next/categories/HEXO/Github/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+    <category term="git" scheme="http://winsight.github.io/next/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Github连接问题及相关解决方案</title>
+    <link href="http://winsight.github.io/next/posts/7c6059c5.html"/>
+    <id>http://winsight.github.io/next/posts/7c6059c5.html</id>
+    <published>2021-05-18T10:56:22.451Z</published>
+    <updated>2021-05-18T04:48:14.952Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;进入git bash界面然后：&lt;/p&gt;
+&lt;h3 id=&quot;第一步&quot;&gt;&lt;a href=&quot;#第一步&quot; class=&quot;headerlink&quot; title=&quot;第一步&quot;&gt;&lt;/a&gt;第一步&lt;/h3&gt;&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="Github" scheme="http://winsight.github.io/next/categories/Github/"/>
+    
+    
+    <category term="github" scheme="http://winsight.github.io/next/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>为什么两个矩阵乘积的行列式的值等于矩阵行列式的乘积？</title>
+    <link href="http://winsight.github.io/next/posts/a407e9d6.html"/>
+    <id>http://winsight.github.io/next/posts/a407e9d6.html</id>
+    <published>2021-05-18T10:56:22.442Z</published>
+    <updated>2021-05-15T14:29:57.677Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;1、面积类比&quot;&gt;&lt;a href=&quot;#1、面积类比&quot; class=&quot;headerlink&quot; title=&quot;1、面积类比&quot;&gt;&lt;/a&gt;1、面积类比&lt;/h1&gt;&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="数学" scheme="http://winsight.github.io/next/categories/%E6%95%B0%E5%AD%A6/"/>
+    
+    
+    <category term="数学" scheme="http://winsight.github.io/next/tags/%E6%95%B0%E5%AD%A6/"/>
+    
+    <category term="线性代数" scheme="http://winsight.github.io/next/tags/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NEXT主题安装</title>
+    <link href="http://winsight.github.io/next/posts/1a8b75d1.html"/>
+    <id>http://winsight.github.io/next/posts/1a8b75d1.html</id>
+    <published>2021-05-18T05:05:55.962Z</published>
+    <updated>2021-05-18T10:40:55.713Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/&quot;&gt;Hexo&lt;/a&gt; 是高效的静态站点生成框架。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="http://winsight.github.io/next/tags/hexo/"/>
+    
+    <category term="next" scheme="http://winsight.github.io/next/tags/next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SMT用焊料、助焊剂、焊锡膏、胶粘剂</title>
+    <link href="http://winsight.github.io/next/posts/f4a065c.html"/>
+    <id>http://winsight.github.io/next/posts/f4a065c.html</id>
+    <published>2021-05-18T00:23:27.000Z</published>
+    <updated>2021-05-18T00:25:44.415Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pdf" scheme="http://winsight.github.io/next/tags/pdf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>发展党员工作手册</title>
+    <link href="http://winsight.github.io/next/posts/e24f9ab0.html"/>
+    <id>http://winsight.github.io/next/posts/e24f9ab0.html</id>
+    <published>2021-05-17T13:55:09.000Z</published>
+    <updated>2021-05-17T13:57:51.741Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;北京理工大学发展党员工作手册2018年11月.pdf&quot; width=&quot;100%&quot; height=&quot;550&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pdf" scheme="http://winsight.github.io/next/tags/pdf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>社会实践论文</title>
+    <link href="http://winsight.github.io/next/posts/edf24525.html"/>
+    <id>http://winsight.github.io/next/posts/edf24525.html</id>
+    <published>2021-05-15T12:55:45.000Z</published>
+    <updated>2021-05-15T13:01:07.137Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;💡或许PC端体验更好（手机端可能只会显示第一页）&quot;&gt;&lt;a href=&quot;#💡或许PC端体验更好（手机端可能只会显示第一页）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pdf" scheme="http://winsight.github.io/next/tags/pdf/"/>
+    
+    <category term="论文" scheme="http://winsight.github.io/next/tags/%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IYPT-2021 同步蜡烛</title>
+    <link href="http://winsight.github.io/next/posts/912d800d.html"/>
+    <id>http://winsight.github.io/next/posts/912d800d.html</id>
+    <published>2021-05-03T05:16:40.000Z</published>
+    <updated>2021-05-15T12:50:31.536Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;💡或许PC端体验更好（手机端可能只会显示第一页）&quot;&gt;&lt;a href=&quot;#💡或许PC端体验更好（手机端可能只会显示第一页）&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="pdf" scheme="http://winsight.github.io/next/tags/pdf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文章标头写法</title>
+    <link href="http://winsight.github.io/next/posts/8cbccaa4.html"/>
+    <id>http://winsight.github.io/next/posts/8cbccaa4.html</id>
+    <published>2021-05-02T04:37:28.000Z</published>
+    <updated>2021-05-15T11:57:21.120Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;📖发布文章&quot;&gt;&lt;a href=&quot;#📖发布文章&quot; class=&quot;headerlink&quot; title=&quot;📖发布文章&quot;&gt;&lt;/a&gt;📖发布文章&lt;/h3&gt;&lt;p&gt;你需要在发布文章的时候写标头&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="项目案例" scheme="http://winsight.github.io/next/categories/%E9%A1%B9%E7%9B%AE%E6%A1%88%E4%BE%8B/"/>
+    
+    
+    <category term="Hexo" scheme="http://winsight.github.io/next/tags/Hexo/"/>
+    
+    <category term="blog" scheme="http://winsight.github.io/next/tags/blog/"/>
+    
+  </entry>
+  
+</feed>
