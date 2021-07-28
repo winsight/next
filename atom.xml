@@ -6,7 +6,7 @@
   <link href="http://winsight.github.io/next/atom.xml" rel="self"/>
   
   <link href="http://winsight.github.io/next/"/>
-  <updated>2021-06-14T03:27:05.743Z</updated>
+  <updated>2021-07-28T09:56:55.435Z</updated>
   <id>http://winsight.github.io/next/</id>
   
   <author>
@@ -17,19 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>games</title>
+    <link href="http://winsight.github.io/next/posts/ff232b31.html"/>
+    <id>http://winsight.github.io/next/posts/ff232b31.html</id>
+    <published>2021-07-28T09:54:21.000Z</published>
+    <updated>2021-07-28T09:56:55.435Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;!doctype html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Winsight&#39;games&lt;/title&gt;
+  &lt;meta name=&quot;keywords&quot; content&gt;
+  &lt;meta</summary>
+        
+      
+    
+    
+    
+    
+    <category term="games" scheme="http://winsight.github.io/next/tags/games/"/>
+    
+  </entry>
+  
+  <entry>
     <title>人民文艺为人民</title>
     <link href="http://winsight.github.io/next/posts/7ed0e5e1.html"/>
     <id>http://winsight.github.io/next/posts/7ed0e5e1.html</id>
     <published>2021-06-14T03:21:43.000Z</published>
-    <updated>2021-06-14T03:27:05.743Z</updated>
+    <updated>2021-06-14T03:37:01.777Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;&lt;embed width=&quot;800&quot; height=&quot;600&quot; src=&quot;wenyi.pdf&quot;&gt; &lt;/p&gt;
-&lt;p&gt;&lt;embed width=&quot;800&quot; height=&quot;600&quot;</summary>
+    <summary type="html">&lt;p&gt;&lt;embed width=&quot;800&quot; height=&quot;600&quot;</summary>
         
       
     
